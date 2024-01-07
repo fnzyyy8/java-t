@@ -18,4 +18,17 @@ public class Array {
     int[] arraySingkat = {
         1,2,3,4
     };
+
+    System.out.println(arraySingkat[2]);
+    System.out.println(arraySingkat.length);
+
+    // Array dalam array
+
+    String[][] member = {
+        {"Farhan","Septiansyah"},
+        {"Aulia", "Jasmine"}
+    };
+
+    System.out.println(member[0][1]);
+
 }};

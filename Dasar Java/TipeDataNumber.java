@@ -1,4 +1,7 @@
 public class TipeDataNumber {
+    /**
+     * @param balance the balance
+     */
     public static void main(String[] args) {
         byte iniByte = 100;
         short iniShort = 1000;
@@ -16,10 +19,6 @@ public class TipeDataNumber {
 
         // Pemisah(Underscore)
         long balance = 1_000_000_000;
-        
-        
-
-        
 
     }
 }
